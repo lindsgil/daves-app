@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button onclick="onMenuClick()">
+      close image
+    </button>
+    <div id="checkmark-image">
+      <img id="checkmark-image-img" src="./assets/check.jpg" />
+    </div>
+    <div id="wrong-image" class="character">
+      <h1>X</h1>
+    </div>
+    <div id="one-image" class="character">
+      <h1>1</h1>
+    </div>
+    <div id="two-image" class="character">
+      <h1>2</h1>
+    </div>
+    <div id="three-image" class="character">
+      <h1>3</h1>
+    </div>
+    <div id="q-image" class="character">
+      <h1>?</h1>
+    </div>
+    <div id="container">
+      <div id="correct">
+        <button class="button" onclick="onCorrectClick()">
+          CORRECT
+        </button>
+      </div>
+      <div id="wrong">
+        <button class="button" onclick="onInCorrectClick()">
+          WRONG
+        </button>
+      </div>
+    <div id="one">
+      <button class="button" onclick="onOneClick()">
+        ONE
+      </button>
+    </div>
+    <div id="two">
+      <button class="button" onclick="onTwoClick()">
+        TWO
+      </button>
+    </div>
+    <div id="three">
+      <button class="button" onclick="onThreeClick()">
+        THREE
+      </button>
+    </div>
+    <div id="question-mark" onclick="onQClick()">
+      <button class="button">
+        ?
+      </button>
+    </div>
+    <div id="checkmark-image">
+      <img src="./assets/check.jpg" />
+    </div>
+  </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

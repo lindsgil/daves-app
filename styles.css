@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  font-family: Helvetica;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#checkmark-image {
+  display: none;
+}
+
+.character {
+  font-family: Helvetica;
+  font-size: 400px;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: -700px;
+}
+
+#one-image {
+  display: none;
+}
+
+#two-image {
+  display: none;
+}
+
+#three-image {
+  display: none;
+}
+
+#q-image {
+  display: none;
+}
+
+#wrong-image {
+  display: none;
+}
+#checkmark-image-img {
+  height: 700px;
+}
