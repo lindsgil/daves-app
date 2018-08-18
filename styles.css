@@ -45,6 +45,7 @@ body {
 
 #wrong-image {
   display: none;
+  color: red;
 }
 #checkmark-image-img {
   height: 700px;
